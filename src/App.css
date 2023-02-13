@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #d9d2e9;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.search {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 0.7rem 0rem 0 0.7rem;
+  -webkit-box-shadow: -3px 17px 29px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 17px 29px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: -3px 17px 29px -20px rgba(0, 0, 0, 0.75);
+}
+
+.search button {
+  padding: 10px;
+  border: none;
+  background-color: #bbb6c5;
+  color: #504b78;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 0rem 0.7rem 0.7rem 0;
+}
+
+.search button:hover {
+  background-color: #504b78;
+  color: #fff;
+}
+
+.employees {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.employee {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 10px 10px 0;
+  padding: 10px;
+  border-radius: 0.7rem;
+  -webkit-box-shadow: -3px 17px 29px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 17px 29px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: -3px 17px 29px -20px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.name {
+  color: #504b78;
+  font-family: "Mulish", sans-serif;
+}
+
+.employee:hover {
+  transform: scale(1.1);
+  border: 1px solid #504b78;
+}
