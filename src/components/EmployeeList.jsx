@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Employee from "./Employee";
 import { Routes, Route, Link } from "react-router-dom";
-import Single from "../pages/Single";
 
 const API_URL = "https://jsonplaceholder.typicode.com/users/";
 
