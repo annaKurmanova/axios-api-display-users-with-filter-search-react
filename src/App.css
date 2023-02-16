@@ -2,8 +2,12 @@
 
 body {
   background-color: #d9d2e9;
-
   font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
 }
 
 .search {
@@ -75,4 +79,67 @@ body {
 .employee:hover {
   transform: scale(1.1);
   border: 1px solid #504b78;
+}
+
+/* single page */
+
+.employee-container {
+  padding: 20px 50px;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 1rem;
+}
+
+.inner {
+  padding: 10px;
+  border-radius: 0.7rem;
+  -webkit-box-shadow: -3px 17px 29px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 17px 29px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: -3px 17px 29px -20px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.main-info-header h1 {
+  font-size: 2.7rem;
+  font-family: Mulish;
+}
+.more-info {
+  font-size: 1.2rem;
+}
+.more-info p {
+  font-weight: 700;
+}
+.more-info span {
+  font-weight: 400;
+}
+.quote {
+  position: absolute;
+  bottom: 10px;
+}
+.quote p {
+  font-weight: 900;
+  font-family: Mulish;
+}
+.quote span {
+  color: #504b78;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.back-link {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #504b78;
+  border-radius: 0.7rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 780px) {
+  .employee-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
